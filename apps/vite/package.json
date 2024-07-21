@@ -1,0 +1,12 @@
+{
+  "name": "vite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "Christopher Gwizdala <597282+christowiz@users.noreply.github.com> (https://github.com/christowiz)",
+  "license": "ISC"
+}

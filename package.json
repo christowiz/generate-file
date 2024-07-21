@@ -4,11 +4,36 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
   "devDependencies": {
+    "@nx/eslint": "19.5.1",
+    "@nx/eslint-plugin": "19.5.1",
+    "@nx/jest": "19.5.1",
     "@nx/js": "19.5.1",
+    "@nx/vite": "19.5.1",
+    "@nx/web": "19.5.1",
     "@nx/workspace": "19.5.1",
-    "nx": "19.5.1"
+    "@swc-node/register": "~1.10.9",
+    "@swc/core": "~1.7.0",
+    "@swc/helpers": "~0.5.12",
+    "@swc/jest": "~0.2.36",
+    "@types/node": "20.14.11",
+    "@typescript-eslint/eslint-plugin": "^7.16.1",
+    "@typescript-eslint/parser": "^7.16.1",
+    "@vitest/ui": "^2.0.3",
+    "eslint": "~9.7.0",
+    "eslint-config-prettier": "^9.1.0",
+    "jsdom": "~24.1.0",
+    "nx": "19.5.1",
+    "prettier": "^3.3.3",
+    "swc-loader": "0.2.6",
+    "ts-node": "10.9.2",
+    "typescript": "~5.5.3",
+    "vite": "^5.3.4",
+    "vite-plugin-generate-file": "0.1.1",
+    "vitest": "^2.0.3"
   },
-  "packageManager": "pnpm@9.5.0+sha512.140036830124618d624a2187b50d04289d5a087f326c9edfc0ccd733d76c4f52c3a313d4fc148794a2a9d81553016004e6742e8cf850670268a7387fc220c903"
+  "packageManager": "pnpm@9.5.0+sha512.140036830124618d624a2187b50d04289d5a087f326c9edfc0ccd733d76c4f52c3a313d4fc148794a2a9d81553016004e6742e8cf850670268a7387fc220c903",
+  "dependencies": {
+    "tslib": "^2.6.3"
+  }
 }
